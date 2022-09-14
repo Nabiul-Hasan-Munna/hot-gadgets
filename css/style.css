@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:#000;
+    line-height: 28px;
+}
+.universal-btn{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 9px;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+.universal-btn:hover{
+    color: #fff;
+}
+.slick-dots li {
+    width: 10px;
+    height: 6px;
+    transition: .4s ease;
+    border-radius: 4px;
+    padding: 0;
+}
+.slick-dots li button {
+    height: 6px;
+    padding: 0;
+    width: 10px;
+    background: #f5b935;
+background: radial-gradient(circle, rgba(245,185,53,1) 0%, rgba(250,215,8,0.9780287114845938) 100%);
+    margin: 0 5px;
+    transition: .4s ease;
+    border-radius: 4px;
+}
+.slick-dots .slick-active button{
+    width: 30px;
+}
+.slick-dots .slick-active{
+    width: 30px;
+}
+
+
+/* NavbaR Css Start */
+#navbar{
+    border-bottom: 1px solid #ebeaea;
+    padding: 20px 0;
+}
+#navbar nav .navbar-brand img{
+    width: 130px;
+}
+#navbar nav .navbar-nav .nav-item{}
+#navbar nav .navbar-nav .nav-item .nav-link{
+    margin-left: 23px;
+    font-size: 14px;
+    padding: 0;
+}
+/* NavbaR Css Ends */
+
+/* baner */
+#baner .product-content h1{
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 600;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+}
+
+/* Product Components Univesal css */
+.product-components{
+    padding-top: 80px;
+}
+.product-components .product-component-title{
+    margin-bottom: 60px;
+}
+.product-components .product-component-title a{
+    color: #f5b935;
+    font-size: 18px;
+}
+.product-components .product-item{}
+.product-components .product-item .product-description{}
+.product-components .product-item .product-description h3{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+.product-components .product-item .product-description p{
+    padding: 0 25px;
+    color: #777777;
+}
+.product-components .product-item .product-description h6{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 25px;
+}
