@@ -27,6 +27,27 @@ body{
 .universal-btn:hover{
     color: #fff;
 }
+.section-title{
+    margin-bottom: 60px;
+}
+.section-title h3{
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+}
+.section-title h3::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #f5b935;
+    background: radial-gradient(circle, rgba(245,185,53,1) 0%, rgba(250,215,8,0.9780287114845938) 100%);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -13px;
+}
 .slick-dots li {
     width: 10px;
     height: 6px;
@@ -104,5 +125,24 @@ background: radial-gradient(circle, rgba(245,185,53,1) 0%, rgba(250,215,8,0.9780
 .product-components .product-item .product-description h6{
     font-size: 18px;
     font-weight: bold;
+    margin-top: 25px;
+}
+
+/* categories */
+#categories{
+    padding-top: 80px;
+}
+#categories .categories-item{
+    box-shadow: 0px 0px 20px #e3e3e3;
+    padding: 17px;
+    width: 100%;
+    margin: 30px 0;
+}
+#categories .categories-item img{
+    width: 70px;
+}
+#categories .categories-item h6{
+    font-weight: bold;
+    font-size: 18px;
     margin-top: 25px;
 }
